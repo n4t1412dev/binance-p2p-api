@@ -1,0 +1,20 @@
+{
+    "name": "1412dev/binance_p2p_api",
+    "description": "Binance P2P Api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "1412dev",
+            "email": "me@1412.io"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "monolog/monolog": "^2.2"
+    },
+    "autoload": {
+		"psr-4": {
+			"API\\": "src"
+		}
+	}
+}
